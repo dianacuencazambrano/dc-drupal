@@ -1,0 +1,43 @@
+$font-family-Title: 'DM Serif Display', serif;
+$font-family-Text: 'Karla', sans-serif;
+
+@mixin title {
+    font-family: $font-family-Title;
+    font-size: 72px;
+    color: #2b272f;
+}
+
+@mixin title-middle-cont {
+    font-family: $font-family-Title;
+    font-size: 30px;
+    color: #2b272f;
+}
+
+@mixin text {
+    font-family: $font-family-Text;
+    font-size: 16px;
+}
+
+@mixin hoverWhite {
+    background-color: white;
+    color: #2b272f;
+}
+
+@mixin hoverBlack {
+    color: white;
+    background-color: #2b272f;
+}
+
+@mixin nav-items {
+    font-family: $font-family-Text;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@mixin button-bordered {
+    padding: 10px 0 0 29px;
+    width: 123px;
+    height: 31px;
+}
